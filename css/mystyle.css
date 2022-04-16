@@ -1,0 +1,85 @@
+img {
+   width: 500px;
+}
+
+nav li{
+	background-color: #E9E4F0;
+	padding:10px;
+	width:25%;
+	border:1px solid rgb(224, 35, 18);
+	display: inline-block;
+	width: 20%;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+nav a:hover{
+  text-decoration: underline;
+  /* text-shadow: 1px 1px grey; */
+}
+
+.distinct_li {
+  font-weight: bold;
+  background-color: #fff;
+  font-size: 1.2em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#index{
+  background-color: rgb(242, 238, 177);
+}
+
+
+#book{
+  background-color: aquamarine;
+}
+
+#food{
+  background-color: bisque;
+}
+
+#artist{
+  background-color: gainsboro;
+}
+
+.food_pic{
+  height: 200px;
+  width: auto;
+  border: 2px dashed #4A00E0;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.food_pic:hover{
+  box-shadow: 5px 5px #ACB6E5;
+}
+
+.foods img:nth-child(3n) {
+  background-color: #E9E4F0;
+  border-style: solid;
+
+}
+
+.index_pic{
+  height: 200px;
+  width: auto;
+  border: 2px dashed #D76D77;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.index_pic:hover{
+  box-shadow: 5px 5px #FFAF7B;
+}
+
+.indexs img:nth-child(3n) {
+  background-color: #DBD4B4;
+  border-style: solid;
+
+}

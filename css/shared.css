@@ -1,0 +1,127 @@
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20%;
+  background-color: rgb(91, 76,130);
+}
+
+#logo{
+  width: 5%;
+  margin: 20px;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li{
+  margin: 0 10px 0 10px;
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+}
+
+li a{
+  color: white;
+}
+
+li a:link
+{
+  text-decoration: none;
+}
+
+img {
+  width: 200px;
+}
+
+main{
+  padding: 0 40px 0 40px;
+}
+
+footer p{
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Merriweather', serif;
+}
+
+footer{
+  background-color: #CC95C0;
+  margin: 20px 0 0 0;
+  padding: 20px;
+}
+
+main p{
+  font-family: 'Work Sans', sans-serif;
+}
+
+h1{
+  font-family: 'Merriweather', serif;
+  font-size: 28px;
+  margin: 20px;
+  background-color: #f3ec78;
+  background-image: linear-gradient(#642b73, #c6426e);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+
+}
+
+body{
+  background-image: url("../images/bgi.jpg");
+  background-repeat: repeat-y;
+  background-size: 100% auto;
+}
+
+h2{
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.distinct_li{
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.distinct_li a{
+  color:pink;
+}
+
+#main {
+  background: white;
+  padding: 6px;
+  -webkit-transition: top 0.3s ease-out;
+  transition: left 1s ease-out;
+  z-index: 1;
+  position: absolute;
+  left: -500px;
+}
+
+#main:focus{
+  top: 20px;
+  left: 0px;
+}
+
+@media screen and (min-width: 768px){
+  img{
+    width: 230px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  img{
+    width: 260px;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  #main{
+    -webkit-transition: initial;
+    transition: initial;
+  }
+}
